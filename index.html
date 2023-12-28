@@ -1,64 +1,182 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9jabest</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-  
-  <style>
-img{
-  border-radius: 80%;
+        header {
+            background-color: #00ffff;
+            padding: 10px;
+            width: 100%;
+           text-align: center;
+           color:black;
+            font-size: 1em;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        main {
+            padding: 20px;
+            flex-grow: 1;
+            width: 80%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+
+        .music-search-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .music-search-box {
+            padding: 12px;
+            border: 2px solid #00ffff;
+            border-radius: 25px;
+            width: 300px;
+            box-sizing: border-box;
+            font-size: 16px;
+            color: #2c3e50;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .music-search-box:focus {
+            border-color: #B80F0A;
+        }
+
+        .music-search-button {
+            margin-top: 5px;
+            padding: 10px;
+            background-color: #00ffff;
+            color: black;
+            border: none;
+            border-radius: 90px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    
+hr {
+  height: 2px;
+  background-color: #00ffff;
+  border: none;
 }
-  width:80px;
-  height:120px;
-  }
-  </style>
-<style>
-  .GFG { 
-
-            background-color:black; 
-
-            border: 50px ; 
-
-            color: white; 
-
-            padding: 5px 10px; 
-
-            text-align: center; 
-
-            display: inline-block; 
-
-            font-size: 30px; 
-
-            margin: 10px 30px; 
-
-            cursor: pointer; } 
-  </style>
- </head>
-
-<center><br><br>
-<img src="https://harryfx.com/logo.jpg" alt="Avatar" style="width:200px">
-</center>
-<body bgcolor="black">
+  img {
+  border-radius: 50%;
+    padding:15px;
+    width:10px;
+    height:none;
+    text-align:left;}
+    
+  .container {
+  align-items:center; 
+  float: left;
+}
+.image{
+    float:left;
+  padding: 1px;}
+  
+  hr {height: 5px; 
+     background-color: 00ffff;  
+border: none;}  
+.scroll-left {
+ height: 30px;	
+ overflow: hidden;
+ position: relative;
+ background: #00ffff;
+ color: black;
+ border: 1px 00ffff;
+}
+.scroll-left p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ animation: scroll-left 10s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}
+</style>
+</head>
 <body>
- <div class="welcome-message">
-    <h2><p style="color:white;">Welcome to 9jabest</p></h2>
-    <p style="color:white;">Embark on a musical journey like never before. Immerse yourself in the rich tapestry of sounds across genres,
-      discover new artists, and create your personalized playlists.</p>
-    <p style="color:white;">Unlimited free streams and download,Whether you are a passionate music enthusiast or just exploring, our platform is your gateway to a world of melodies.
-      Join us and let the rhythm guide you!
-     <p><center>
-    <button class="GFG" 
-onclick="window.location.href = 'https://harryfx.com/home.html';"> 
-👉EXPLORE NOW
-        </button> 
-      </p></center>
-       </a>
-     </center>
-</div>
+<header>
+ <h1>9𝒋𝒂𝒃𝒆𝒔𝒕</h1>
+    </header><div class="music-search-container">
+            <input type="text" class="music-search-box" placeholder="𝐒𝖊𝖆𝖗𝖈𝖍....... "></b>
+            <button class="music-search-button">Search</button>
+        </div></center>
+<div class="container"><br><hr>
+<div class="image"><img src="https://harryfx.com/afro.jpg" alt="Avatar" style="width:50px">
+  
+  <a href="https://harryfx.com/about.html"style="  text-decoration: none; color:#00ffff;"><br><center><b>AFROBEATZ</b></center>
+    
+  </div></a>
+  <div class="image"><img src="https://harryfx.com/hiph.jpg" alt="Avatar" style="width:50px">
+  <a href="https://harryfx.com/about.html"style="  text-decoration: none; color:#00ffff;"><br><center><b>HIP-HOP</b></center>
+    </div></a>
+   <div class="image"><img src="https://harryfx.com/country.jpg" alt="Avatar" style="width:50px">
+  <a href="https://harryfx.com/about.html"style="  text-decoration: none; color:#00ffff;"><br><center><b>COUNTRY</b></center>
+    </div></a>
+<div class="image"><img src="https://harryfx.com/reg.jpg" alt="Avatar" style="width:50px">
+  <a href="https://harryfx.com/about.html"style="  text-decoration: none; color:#00ffff;"><br><center><b>REGGAE</b></center>
+    </div></a>
+  <div class="image"><img src="https://harryfx.com/dja.jpg" alt="Avatar" style="width:50px">
+  <a href="https://harryfx.com/about.html"style="  text-decoration: none; color:#00ffff;"><br><center><b>MIXTAPES</b></center>
+    </div></a>
+  <div class="image"><img src="https://harryfx.com/bl.jpg" alt="Avatar" style="width:50px">
+  <a href="https://harryfx.com/about.html"style="  text-decoration: none; color:#00ffff;"><br><center><b>BLUES</b></center>
+    </div></a>
+  <div class="image"><img src="https://harryfx.com/gos.jpg" alt="Avatar" style="width:50px">
+  <a href="https://harryfx.com/about.html"style="  text-decoration: none; color:#00ffff;"><br><center><b>WORSHIP</b></center>
+    </div></a>
+  <div class="image"><img src="https://harryfx.com/rom.jpg" alt="Avatar" style="width:50px">
+  <a href="https://harryfx.com/about.html"style="  text-decoration: none; color:#00ffff;"><br><center><b>ROMANCE</b></center>
+    </div></a>
+</div><p></main><footer>
+  <center>
+<a href="https://harryfx.com/about.html"style="  text-decoration: none; color:#00ffff;">[ABOUT US]</a> 
+ <a href="mailto:edabitech@gmail.com"style=" text-decoration:none; color:#00ffff;">[SEND EMAIL]</a>
+<a href="tel:+234 813 814 3437" style="text-decoration:none;color:#00ffff;">[CONTACT US]</a> 
+<a href="http://harryfx.com/policy.html" style="text-decoration:none;color:#00ffff;">[PRIVACY POLICY]</a> 
+<a href="https://harryfx.com/terms.html" style="text-decoration:none; color:#00ffff;">[TERMS OF SERVICE]</a> 
+<a href="https://harryfx.com/DCMA.html"style="text-decoration:none;color:#00ffff;">[DCMA]</a> 
+</b></div>
+</main>
+<footer class="flex-all-center">
+&copy; 2023 9JABEST All rights reserved.</p>
+</footer>
 </body>
- </html>
+</html>
