@@ -87,11 +87,50 @@ window.__h82AlnkH6D91__("WyJwdWItMjM2Nzk0NDA0MTk4MzA5NiIsW251bGwsbnVsbCxudWxsLCJ
 
 
 
+  
 
 
 
-
-
+<style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    .nav-bar a {
+      text-decoration: none;
+      color: cyan;
+      display: block;
+    }
+    .nav-bar > ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-bar > ul > li > a {
+      padding: 10px;
+      background: black;
+    }
+    .nav-bar > ul > li > a:hover {
+      background: cyan;
+      color: black;
+    }
+    .nav-bar .active {
+      background: black;
+      color: cyan;
+    }
+    .nav-bar li {
+      float: left;
+      width: 25%; /* 100% / 4 (number of li elements) = 25% */
+      text-align: center;
+      border-right: 3px solid cyan; /* for the borders */
+    }
+    .nav-bar li:last-child {
+      border: none;
+    }
+  </style>
 
 
 
@@ -354,6 +393,26 @@ justify-content:right;
     
     document.getElementById("demo").innerHTML = greetUser();
   </script>
+
+
+
+<div class="nav-bar">
+    <ul>
+      <li><a href="#" class="active"> Home </a></li>
+      <li><a href="#"> Music </a></li>
+      <li><a href="#"> Videos </a></li>
+      <li><a href="#"> News</a></li>
+    </ul>
+  </div>
+
+
+
+
+
+
+
+
+
 
 
 
